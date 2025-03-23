@@ -1,0 +1,28 @@
+nav{
+    background-color: black;
+}
+
+.logo{
+    width: 50px;
+}
+
+.top-nav a{
+    background-color: white;
+    color: black;
+    background-color: white;
+
+}
+
+.bottom-nav{
+    padding: 10px;
+}
+
+
+.bottom-nav ul{
+    gap: 2em;
+}
+
+.bottom-nav a{
+    color: white;
+    font-size: 1em;
+}

@@ -83,3 +83,25 @@
     color: white;
 }
 
+/* trending-now */
+
+.flex-container{
+    flex: 0 0 auto;
+}
+
+
+.poster-wrapper{
+    flex: 0 0 auto;
+    min-width: 50px;
+    max-width: 160px;
+}
+
+.poster-wrapper img{
+    border-radius: 15px;
+}
+
+
+.overflow-x-auto{
+    overflow-x: auto;
+    overflow-y: hidden;
+}

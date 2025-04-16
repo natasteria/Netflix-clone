@@ -148,3 +148,10 @@
 .faq-answer{
     border-top: 2px solid black;
 }
+
+/* footer */
+.footer a{
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}

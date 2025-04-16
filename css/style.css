@@ -123,3 +123,28 @@
     width: 70px;
     height: 70px;
 }
+
+/* FAQ */
+
+.faq-item{
+    background-color: #353434;
+    color: #ffffff;
+    padding: 5px;
+    margin-bottom: 13px;
+}
+
+.faq-item:hover{
+    background-color: #575454;
+}
+
+.faq-icons{
+    width: 30px;
+}
+
+.faq-icons img{
+    color: white;
+}
+
+.faq-answer{
+    border-top: 2px solid black;
+}

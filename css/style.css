@@ -1,5 +1,5 @@
 .background-image{
-    background-image: url("./../img/utilites/home-bg.jpg");
+    background-image: url("./../img/utilites/hero-bg.jpg");
 }
 
 .logo{
@@ -51,18 +51,47 @@
 
 .poster-wrapper{
     flex: 0 0 auto;
+    width: 30%;
     min-width: 50px;
-    max-width: 160px;
+    max-width: 200px;
 }
 
 .poster-wrapper img{
     border-radius: 15px;
+    height: 100%;
 }
-
 
 .overflow-x-auto{
     overflow-x: auto;
     overflow-y: hidden;
+}
+
+#trending-row::-webkit-scrollbar {
+    display: none; 
+  }
+
+.arrow{
+    background-color: #353434;
+    color: white;
+    padding-right: 2px;
+    padding-left: 2px;
+    cursor: pointer;
+}
+
+.arrow:hover{
+    background-color: #575454;
+}
+
+#arrow-left{
+    top: 50%;
+    left: -25px;
+    transform: translateY(-50%); /*centering the arrow relative to it's self */
+}
+
+#arrow-right{
+    top: 50%;
+    right: -25px;
+    transform: translateY(-50%); /*centering the arrow relative to it's self */
 }
 
 /* More-Reason-to-Join */
@@ -117,4 +146,11 @@
     display: block;
     margin-bottom: 10px;
     color: #333;
+}
+
+
+@media(max-width: 576px){
+    .arrow{
+        display: none;
+    }
 }

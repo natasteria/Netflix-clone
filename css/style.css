@@ -1,3 +1,8 @@
+body{
+    background-color: black;
+    color: white;
+}
+
 .background-image{
     background-image: url("./../img/utilites/hero-bg.jpg");
 }
@@ -161,7 +166,7 @@
 .footer a{
     display: block;
     margin-bottom: 10px;
-    color: #333;
+    color: #999;
 }
 
 

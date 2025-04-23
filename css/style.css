@@ -118,10 +118,11 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+    background: linear-gradient(to bottom right, #192144, #331625);
+    color: white;
 }
 
 .card-content{
-    /* background-color: red; */
     padding: 5px; 
 }
 
@@ -133,26 +134,23 @@
 /* FAQ */
 
 .faq-item{
-    background-color: #353434;
+    background-color: #2d2d2d;
     color: #ffffff;
     padding: 5px;
     margin-bottom: 13px;
+    transition: background-color 0.2s ease;
 }
 
 .faq-item:hover{
-    background-color: #575454;
+    background-color: #3f3d3d;
 }
 
-.faq-icons{
-    width: 30px;
-}
-
-.faq-icons img{
-    color: white;
+.faq-icons small{
+    font-size: 30px;
 }
 
 .faq-answer{
-    border-top: 2px solid black;
+    border-top: 0.5px solid black;
 }
 
 /* footer */

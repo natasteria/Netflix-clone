@@ -22,7 +22,8 @@ body{
 
 .hero-text h1{
     font-weight: bold;
-    font-size: 3em;
+    font-size: 2.3em;
+    /* font-size: 3em; */
 }
 
 .hero-input-container{
@@ -45,6 +46,32 @@ body{
 .btn-bgcolor:hover{
     background-color: #c50b15;
     color: white;
+}
+
+/* spot-light effect */
+
+.parent{
+    display: flex;
+}
+
+.child{
+    height: 6vh;
+    color: white;
+
+}
+
+.left{
+    width: 50%;
+    background: linear-gradient(to top right, black 40%, #1b2a63 100%);
+    border-top: 3px solid red;
+    border-top-left-radius: 10px;
+}
+
+.right{
+    width: 50%;
+    background: linear-gradient(to top left, black 40%, #1b2a63 100%);
+    border-top: 3px solid red;
+    border-top-right-radius: 10px;
 }
 
 /* trending-now */
@@ -74,12 +101,12 @@ body{
 
 .number{
     color: black;
-    font-size: 80px;
-    top: 60%;
+    font-size: 70px;
+    top: 70%;
     left: -20px;
     transform: translateY(-50%);
     z-index: 5;
-    -webkit-text-stroke: 2px white;
+    -webkit-text-stroke: 1px white;
     position: relative;
     font-weight: bold;
 }
@@ -152,6 +179,10 @@ body{
 
 .faq-icons small{
     font-size: 30px;
+}
+
+.faq-question{
+
 }
 
 .faq-answer{

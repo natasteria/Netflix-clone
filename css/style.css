@@ -22,7 +22,7 @@ body{
 
 .hero-text h1{
     font-weight: bold;
-    font-size: 2.3em;
+    font-size: 1.5em;
     /* font-size: 3em; */
 }
 
@@ -55,21 +55,21 @@ body{
 }
 
 .child{
-    height: 6vh;
+    height: 5vh;
     color: white;
 
 }
 
 .left{
     width: 50%;
-    background: linear-gradient(to top right, black 40%, #1b2a63 100%);
+    background: linear-gradient(to top right, black 40%, #3850af 100%);
     border-top: 3px solid red;
     border-top-left-radius: 10px;
 }
 
 .right{
     width: 50%;
-    background: linear-gradient(to top left, black 40%, #1b2a63 100%);
+    background: linear-gradient(to top left, black 40%, #3850af 100%);
     border-top: 3px solid red;
     border-top-right-radius: 10px;
 }
@@ -171,6 +171,7 @@ body{
     padding: 5px;
     margin-bottom: 13px;
     transition: background-color 0.2s ease;
+    font-size: 0.5em !important;
 }
 
 .faq-item:hover{
@@ -182,7 +183,7 @@ body{
 }
 
 .faq-question{
-
+    font-size: 1.5em;
 }
 
 .faq-answer{

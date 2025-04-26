@@ -12,8 +12,7 @@ body{
 }
 
 .hero-content{
-    height: 60vh;
-    margin-top: 0px;
+    height: 90vh;
 }
 
 .hero-text{
@@ -22,8 +21,7 @@ body{
 
 .hero-text h1{
     font-weight: bold;
-    font-size: 2em;
-    /* font-size: 3em; */
+    font-size: 3em;
 }
 
 .hero-input-container{
@@ -106,7 +104,7 @@ body{
     left: -20px;
     transform: translateY(-50%);
     z-index: 5;
-    -webkit-text-stroke: 1px white;
+    -webkit-text-stroke: 4px white;
     position: relative;
     font-weight: bold;
 }
@@ -183,10 +181,11 @@ body{
 }
 
 .faq-question{
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .faq-answer{
+    font-size: 2.5em;
     border-top: 0.5px solid black;
 }
 
@@ -203,7 +202,53 @@ body{
 
 
 @media(max-width: 576px){
+    .hero-content{
+        height: 70vh;
+
+    }
+    
+    .hero-text h1{
+        font-size: 2em;
+    }
+
+    .child{
+        height: 7vh;
+    }
+    
+    .left{
+        width: 50%;
+        background: linear-gradient(to top right, black 40%, #4561d1 100%);
+    }
+    
+    .right{
+        width: 50%;
+        background: linear-gradient(to top left, black 40%, #4561d1 100%);
+    }
+
     .arrow{
         display: none;
+    }
+    .card-content h1{
+        font-size: 15px !important;
+    }
+    .card-content p{
+        font-size: 15px;
+    }
+    .icon{
+        width: 50px;
+        height: 50px;
+    }
+
+    .faq-question{
+        font-size: 2em;
+    }
+    
+    .faq-answer{
+        font-size: 1.7em;
+        border-top: 0.5px solid black;
+    }
+
+    .signup-btn{
+        padding: 10px 15px;
     }
 }

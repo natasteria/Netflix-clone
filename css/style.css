@@ -48,29 +48,29 @@ body{
 
 /* spot-light effect */
 
-.parent{
+.spotlight-container { 
     display: flex;
 }
 
-.child{
+.spotlight-left-panel, .spotlight-right-panel {
     height: 5vh;
     color: white;
-
 }
 
-.left{
+.spotlight-left-panel {
     width: 50%;
     background: linear-gradient(to top right, black 40%, #3850af 100%);
     border-top: 3px solid red;
     border-top-left-radius: 10px;
 }
 
-.right{
+.spotlight-right-panel {
     width: 50%;
     background: linear-gradient(to top left, black 40%, #3850af 100%);
     border-top: 3px solid red;
     border-top-right-radius: 10px;
 }
+
 
 /* trending-now */
 
